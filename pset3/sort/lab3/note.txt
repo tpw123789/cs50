@@ -1,0 +1,33 @@
+Q: selection sort, bubble sort, and merge sort.
+
+# For random10000.txt
+time ./sort1 random10000.txt 
+real    0m0.538s
+user    0m0.232s
+sys     0m0.020s
+
+time ./sort2 random10000.txt
+real    0m0.100s
+user    0m0.004s
+sys     0m0.024s
+
+time ./sort2 random10000.txt
+real    0m0.226s
+user    0m0.106s
+sys     0m0.012s
+-----------------------------------------------
+# For reversed10000.txt
+time ./sort1 reversed10000.txt
+real    0m0.448s
+user    0m0.204s
+sys     0m0.020s
+
+time ./sort2 reversed10000.txt
+real    0m0.099s
+user    0m0.009s
+sys     0m0.018s
+
+time ./sort3 reversed10000.txt
+real    0m0.239s
+user    0m0.103s
+sys     0m0.024s
